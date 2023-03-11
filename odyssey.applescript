@@ -9,7 +9,7 @@ on run
 	repeat with theId in appIDs
 		if isDefaultHandler(theId, "https") then
 			try
-				callUp(theId)
+				activateTheApp(theId)
 				return
 			on error
 				-- ignore
@@ -20,12 +20,12 @@ on run
 	tell application "Safari" to activate
 end run
 
-on callUp(theId)
+on activateTheApp(theId)
 	tell application "Finder"
 		set theApp to name of (get application file id theId)
 	end tell
 	tell application theApp to activate
-end callUp
+end activateTheApp
 
 on isDefaultHandler(theId, scheme)
 	set pattern to "'LSHandlerRoleAll=\"" & theId & "\";LSHandlerURLScheme=" & scheme & ";'"
