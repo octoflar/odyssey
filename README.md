@@ -1,5 +1,6 @@
+![Graphical abstract](assets/img/world.png "Custom Safari app icon")
 
-An Apple script to launch the default web browser.
+An Apple script to launch the default web browser in macOS.
 
 # Getting started
 
