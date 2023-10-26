@@ -5,8 +5,8 @@ An Apple script to launch the default web browser in macOS.
 # Getting started
 
 To create an application from `odyssey.applescript`, open it in Script-Editor and
-export it as stay-open application. Put the application into the `odyssey` folder
-or wherever you like.
+export it as application. Put the application into the `odyssey` folder or wherever
+you like.
 
 # Thanks
 
