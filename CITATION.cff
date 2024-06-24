@@ -1,10 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it using these metadata."
+title: Odyssey - launches macOS default web browser
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
 authors:
   - family-names: Quast
     given-names: Ralf
-    orcid: "https://orcid.org/0000-0002-6857-6503"
-title: Odyssey - launches macOS default web browser
-repository-code: "https://github.com/octoflar/odyssey"
-url: "https://octoflar.github.io/odyssey"
+    orcid: 'https://orcid.org/0000-0002-6857-6503'
+repository-code: 'https://github.com/octoflar/odyssey'
+url: 'https://octoflar.github.io/odyssey'
+abstract: >-
+  An Apple script to launch the default web browser in
+  macOS.
 license: GPL-3.0
